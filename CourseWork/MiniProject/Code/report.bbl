@@ -1,0 +1,948 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Bruckner2012InfluencePoultry}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6410740fbf53e8df455911bd25037179}{%
+           family={Bruckner},
+           familyi={B\bibinitperiod},
+           given={Stefanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb8c13efa0922281a064f2f07e1dfcc5}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Brigitte},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ca886d7773c553e77a3e4327cf845b1}{%
+           family={Kreyenschmidt},
+           familyi={K\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{44e470d30f7ca717ca39fa753d8c13ce}
+      \strng{fullhash}{44e470d30f7ca717ca39fa753d8c13ce}
+      \strng{bibnamehash}{44e470d30f7ca717ca39fa753d8c13ce}
+      \strng{authorbibnamehash}{44e470d30f7ca717ca39fa753d8c13ce}
+      \strng{authornamehash}{44e470d30f7ca717ca39fa753d8c13ce}
+      \strng{authorfullhash}{44e470d30f7ca717ca39fa753d8c13ce}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09505423}
+      \field{journaltitle}{International Journal of Food Science and Technology}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{{Influence of cold chain interruptions on the shelf life of fresh pork and poultry}}
+      \field{volume}{47}
+      \field{year}{2012}
+      \field{pages}{1639\bibrangedash 1646}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/j.1365-2621.2012.03014.x
+      \endverb
+      \keyw{Chilling,Food quality,Microbiology,Pork,Poultry,Shelf life,Temperature abuse}
+    \endentry
+    \entry{CoyneTheGrowth}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ba95201b97369968a4e8bcdac46996a8}{%
+           family={Coyne},
+           familyi={C\bibinitperiod},
+           given={F\bibnamedelima P},
+           giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba95201b97369968a4e8bcdac46996a8}
+      \strng{fullhash}{ba95201b97369968a4e8bcdac46996a8}
+      \strng{bibnamehash}{ba95201b97369968a4e8bcdac46996a8}
+      \strng{authorbibnamehash}{ba95201b97369968a4e8bcdac46996a8}
+      \strng{authornamehash}{ba95201b97369968a4e8bcdac46996a8}
+      \strng{authorfullhash}{ba95201b97369968a4e8bcdac46996a8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The Effect of Carbon Dioxide on Bacterial Growth}}
+      \field{type}{techreport}
+      \verb{urlraw}
+      \verb https://royalsocietypublishing.org/
+      \endverb
+      \verb{url}
+      \verb https://royalsocietypublishing.org/
+      \endverb
+    \endentry
+    \entry{Davis2005EffectsBacteria}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1bd05b5aab203d5e1cb63cfb1372c70b}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Kathryn\bibnamedelima E.R.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a47a4b18628370fa95ca84c56cd3cf62}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Shayne\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59aeb10217c62cb55d5c66b3eb10f054}{%
+           family={Janssen},
+           familyi={J\bibinitperiod},
+           given={Peter\bibnamedelima H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{afb97c57815f207c56461e88e6974433}
+      \strng{fullhash}{afb97c57815f207c56461e88e6974433}
+      \strng{bibnamehash}{afb97c57815f207c56461e88e6974433}
+      \strng{authorbibnamehash}{afb97c57815f207c56461e88e6974433}
+      \strng{authornamehash}{afb97c57815f207c56461e88e6974433}
+      \strng{authorfullhash}{afb97c57815f207c56461e88e6974433}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00992240}
+      \field{journaltitle}{Applied and Environmental Microbiology}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{{Effects of growth medium, inoculum size, and incubation time on culturability and isolation of soil bacteria}}
+      \field{volume}{71}
+      \field{year}{2005}
+      \field{pages}{826\bibrangedash 834}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1128/AEM.71.2.826-834.2005
+      \endverb
+    \endentry
+    \entry{Dens2000OnProducts}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=95f40f451753317958bd986888a21f6f}{%
+           family={Dens},
+           familyi={D\bibinitperiod},
+           given={E\bibnamedelima J},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=210af50c2a5f453a82bc739b0d0f43d1}{%
+           family={Van\bibnamedelima Impe},
+           familyi={V\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={J\bibnamedelima F},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad1af3f70a687cbed4a50b7a168373de}
+      \strng{fullhash}{ad1af3f70a687cbed4a50b7a168373de}
+      \strng{bibnamehash}{ad1af3f70a687cbed4a50b7a168373de}
+      \strng{authorbibnamehash}{ad1af3f70a687cbed4a50b7a168373de}
+      \strng{authornamehash}{ad1af3f70a687cbed4a50b7a168373de}
+      \strng{authorfullhash}{ad1af3f70a687cbed4a50b7a168373de}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Mathematics and Computers in Simulation}
+      \field{title}{{On the importance of taking space into account when modeling microbial competition in structured food products}}
+      \field{type}{techreport}
+      \field{volume}{53}
+      \field{year}{2000}
+      \keyw{Coupled map lattice,Microbial competition,Structured food}
+    \endentry
+    \entry{Fessas2017IsothermalModeling}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7022a5d62497ac2e369d424e1ad7aeab}{%
+           family={Fessas},
+           familyi={F\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db2ebab8ce79dc2e9e6083c4a1323dc4}{%
+           family={Schiraldi},
+           familyi={S\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{a1528ac2c354f214c70da2aba65fa7e5}
+      \strng{fullhash}{a1528ac2c354f214c70da2aba65fa7e5}
+      \strng{bibnamehash}{a1528ac2c354f214c70da2aba65fa7e5}
+      \strng{authorbibnamehash}{a1528ac2c354f214c70da2aba65fa7e5}
+      \strng{authornamehash}{a1528ac2c354f214c70da2aba65fa7e5}
+      \strng{authorfullhash}{a1528ac2c354f214c70da2aba65fa7e5}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15882926}
+      \field{journaltitle}{Journal of Thermal Analysis and Calorimetry}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{{Isothermal calorimetry and microbial growth: beyond modeling}}
+      \field{volume}{130}
+      \field{year}{2017}
+      \field{pages}{567\bibrangedash 572}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/s10973-017-6515-x
+      \endverb
+      \keyw{Isothermal calorimetry,Lactobacillus helveticus,Live systems,Microbial growth}
+    \endentry
+    \entry{Johnson2004ModelEvolution}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dec9eb19758a2646d562872bf33ef8b5}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Jerald\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b45338896889f49a4bdd885f277f5df8}{%
+           family={Omland},
+           familyi={O\bibinitperiod},
+           given={Kristian\bibnamedelima S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{136e4cf9755721996ad487a2e039ff3b}
+      \strng{fullhash}{136e4cf9755721996ad487a2e039ff3b}
+      \strng{bibnamehash}{136e4cf9755721996ad487a2e039ff3b}
+      \strng{authorbibnamehash}{136e4cf9755721996ad487a2e039ff3b}
+      \strng{authornamehash}{136e4cf9755721996ad487a2e039ff3b}
+      \strng{authorfullhash}{136e4cf9755721996ad487a2e039ff3b}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Trends in Ecology and Evolution}
+      \field{issn}{01695347}
+      \field{number}{2}
+      \field{title}{{Model selection in ecology and evolution}}
+      \field{volume}{19}
+      \field{year}{2004}
+      \field{pages}{101\bibrangedash 108}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.tree.2003.10.013
+      \endverb
+    \endentry
+    \entry{Koutsoumanis2000ApplicationPredictions}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=77bf56082397f96f40527972c275331b}{%
+           family={Koutsoumanis},
+           familyi={K\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f176271a2ca73ca8b085739270aef3d}{%
+           family={Nychas},
+           familyi={N\bibinitperiod},
+           given={George-John\bibnamedelima E},
+           giveni={G\bibinithyphendelim J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5eb82d5d81f82ad3eeb59960fab42ef1}
+      \strng{fullhash}{5eb82d5d81f82ad3eeb59960fab42ef1}
+      \strng{bibnamehash}{5eb82d5d81f82ad3eeb59960fab42ef1}
+      \strng{authorbibnamehash}{5eb82d5d81f82ad3eeb59960fab42ef1}
+      \strng{authornamehash}{5eb82d5d81f82ad3eeb59960fab42ef1}
+      \strng{authorfullhash}{5eb82d5d81f82ad3eeb59960fab42ef1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Journal of Food Microbiology}
+      \field{title}{{Application of a systematic experimental procedure to develop a microbial model for rapid fish shelf life predictions}}
+      \field{type}{techreport}
+      \field{volume}{60}
+      \field{year}{2000}
+      \field{pages}{171\bibrangedash 184}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb www.elsevier.nl/locate/ijfoodmicro
+      \endverb
+      \verb{url}
+      \verb www.elsevier.nl/locate/ijfoodmicro
+      \endverb
+      \keyw{Fish spoilage,Impedance technique,Mathematical modelling}
+    \endentry
+    \entry{Lee2014ComparisonConditions}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8457d3b75416c7d668ae19fe00e6c67d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Dong\bibnamedelima Sun},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi Publishing Corporation}%
+      }
+      \strng{namehash}{8457d3b75416c7d668ae19fe00e6c67d}
+      \strng{fullhash}{8457d3b75416c7d668ae19fe00e6c67d}
+      \strng{bibnamehash}{8457d3b75416c7d668ae19fe00e6c67d}
+      \strng{authorbibnamehash}{8457d3b75416c7d668ae19fe00e6c67d}
+      \strng{authornamehash}{8457d3b75416c7d668ae19fe00e6c67d}
+      \strng{authorfullhash}{8457d3b75416c7d668ae19fe00e6c67d}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15635147}
+      \field{journaltitle}{Mathematical Problems in Engineering}
+      \field{title}{{Comparison of two mechanistic microbial growth models to estimate shelf life of perishable food package under dynamic temperature conditions}}
+      \field{volume}{2014}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1155/2014/392054
+      \endverb
+    \endentry
+    \entry{Lipson2015TheProcesses}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1a8803551ef9c55160b69003a6cf77b4}{%
+           family={Lipson},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media S.A.}%
+      }
+      \strng{namehash}{1a8803551ef9c55160b69003a6cf77b4}
+      \strng{fullhash}{1a8803551ef9c55160b69003a6cf77b4}
+      \strng{bibnamehash}{1a8803551ef9c55160b69003a6cf77b4}
+      \strng{authorbibnamehash}{1a8803551ef9c55160b69003a6cf77b4}
+      \strng{authornamehash}{1a8803551ef9c55160b69003a6cf77b4}
+      \strng{authorfullhash}{1a8803551ef9c55160b69003a6cf77b4}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1664302X}
+      \field{journaltitle}{Frontiers in Microbiology}
+      \field{number}{JUN}
+      \field{title}{{The complex relationship between microbial growth rate and yield and its implications for ecosystem processes}}
+      \field{volume}{6}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.3389/fmicb.2015.00615
+      \endverb
+      \keyw{Bacterial growth efficiency (BGE),Copiotroph,Growth rate,Growth yield,Microbial growth kinetics,Oligotroph,carbon use efficiency (CUE),climate change}
+    \endentry
+    \entry{MarkJ.Brewer2016TheHeterogeneity}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=629431e2382f4c1e9f0d4a8df9adc879}{%
+           family={{Mark J. Brewer}},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=7747f0bd2ec04edff93bf8f50592fba4}{%
+           family={{Adam Butler}},
+           familyi={A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=dbf46855eeec0db04538bddadc894aa5}{%
+           family={{Susan L. Cooksley}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f109f87262152b490f04beff131673b5}
+      \strng{fullhash}{f109f87262152b490f04beff131673b5}
+      \strng{bibnamehash}{f109f87262152b490f04beff131673b5}
+      \strng{authorbibnamehash}{f109f87262152b490f04beff131673b5}
+      \strng{authornamehash}{f109f87262152b490f04beff131673b5}
+      \strng{authorfullhash}{f109f87262152b490f04beff131673b5}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methods in Ecology and Evolutio}
+      \field{number}{7}
+      \field{title}{{The relative performance of AIC, AICC and BIC in the presence of unobserved heterogeneity}}
+      \field{year}{2016}
+      \field{pages}{679\bibrangedash 692}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/2041-210X.12541
+      \endverb
+    \endentry
+    \entry{Micha2011MicrobialCannot}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=06b1fd6cf3b073e637e0b6ea679c6a46}{%
+           family={Micha},
+           familyi={M\bibinitperiod},
+           given={Peleg},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8262354404a781408c479df55091373}{%
+           family={Corradini},
+           familyi={C\bibinitperiod},
+           given={Maria\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d23bc36bda487e4dcfa68ed702f9c1ac}
+      \strng{fullhash}{d23bc36bda487e4dcfa68ed702f9c1ac}
+      \strng{bibnamehash}{d23bc36bda487e4dcfa68ed702f9c1ac}
+      \strng{authorbibnamehash}{d23bc36bda487e4dcfa68ed702f9c1ac}
+      \strng{authornamehash}{d23bc36bda487e4dcfa68ed702f9c1ac}
+      \strng{authorfullhash}{d23bc36bda487e4dcfa68ed702f9c1ac}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Critical Reviews in Food Science and Nutrition}
+      \field{issn}{10408398}
+      \field{month}{12}
+      \field{number}{10}
+      \field{title}{{Microbial growth curves: What the models tell us and what they cannot}}
+      \field{volume}{51}
+      \field{year}{2011}
+      \field{pages}{917\bibrangedash 945}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1080/10408398.2011.570463
+      \endverb
+      \keyw{Gompertz model,Growth rate,Kinetics,Lag time,Logistic growth,Verhulst's equation}
+    \endentry
+    \entry{MohdYunusAbdShukor2014Evaluation1}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e52f21537e2defb215c0537bab033b2f}{%
+           family={Mohd\bibnamedelimb Yunus\bibnamedelimb Abd\bibnamedelima Shukor},
+           familyi={M\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Associate},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e52f21537e2defb215c0537bab033b2f}
+      \strng{fullhash}{e52f21537e2defb215c0537bab033b2f}
+      \strng{bibnamehash}{e52f21537e2defb215c0537bab033b2f}
+      \strng{authorbibnamehash}{e52f21537e2defb215c0537bab033b2f}
+      \strng{authornamehash}{e52f21537e2defb215c0537bab033b2f}
+      \strng{authorfullhash}{e52f21537e2defb215c0537bab033b2f}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{JEBAT}
+      \field{isbn}{142.671.0011}
+      \field{number}{2}
+      \field{title}{{Evaluation of Several Mathematical Models for Fitting the Growth and Kinetics of the Catechol-degrading Candida parapsilopsis: Part 1}}
+      \field{type}{techreport}
+      \field{volume}{2}
+      \field{year}{2014}
+      \field{pages}{48\bibrangedash 52}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb http://journal.hibiscuspublisher.com/index.php/JEBAT
+      \endverb
+      \verb{url}
+      \verb http://journal.hibiscuspublisher.com/index.php/JEBAT
+      \endverb
+    \endentry
+    \entry{Murphy2000ModelingMedia}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a2776a4ae86c22817831f7e10bb0b779}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Ellyn\bibnamedelima M},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8df5b0b578848ac96a2a18ce0ca522ea}{%
+           family={Ginn},
+           familyi={G\bibinitperiod},
+           given={Timothy\bibnamedelima R},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=026c44639c0d1118acb1fd397341994a}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Everson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{b7edd981b83cea1954dcc9d1fd351871}
+      \strng{fullhash}{b7edd981b83cea1954dcc9d1fd351871}
+      \strng{bibnamehash}{b7edd981b83cea1954dcc9d1fd351871}
+      \strng{authorbibnamehash}{b7edd981b83cea1954dcc9d1fd351871}
+      \strng{authornamehash}{b7edd981b83cea1954dcc9d1fd351871}
+      \strng{authorfullhash}{b7edd981b83cea1954dcc9d1fd351871}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Hydrogeology Journal}
+      \field{title}{{Modeling microbial processes in porous media}}
+      \field{type}{techreport}
+      \field{volume}{8}
+      \field{year}{2000}
+      \field{pages}{142\bibrangedash 158}
+      \range{pages}{17}
+    \endentry
+    \entry{Murtaugh2014InValues}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4a3e5da7568171cdcb2f59065f3cac9f}{%
+           family={Murtaugh},
+           familyi={M\bibinitperiod},
+           given={Paul\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4a3e5da7568171cdcb2f59065f3cac9f}
+      \strng{fullhash}{4a3e5da7568171cdcb2f59065f3cac9f}
+      \strng{bibnamehash}{4a3e5da7568171cdcb2f59065f3cac9f}
+      \strng{authorbibnamehash}{4a3e5da7568171cdcb2f59065f3cac9f}
+      \strng{authornamehash}{4a3e5da7568171cdcb2f59065f3cac9f}
+      \strng{authorfullhash}{4a3e5da7568171cdcb2f59065f3cac9f}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ecology}
+      \field{number}{3}
+      \field{title}{{In defense of P values}}
+      \field{type}{techreport}
+      \field{volume}{95}
+      \field{year}{2014}
+      \field{pages}{611\bibrangedash 617}
+      \range{pages}{7}
+      \keyw{AIC,P value,confidence interval,null hypothesis,significance testing}
+    \endentry
+    \entry{Perni2005EstimatingEverything}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9aaa8a491dd4579e2bae08c3a48bcda2}{%
+           family={Perni},
+           familyi={P\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4483be09d74c17f56a9941207f7f0e61}{%
+           family={Andrew},
+           familyi={A\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09b8081983c4a8801935480bb067fed2}{%
+           family={Shama},
+           familyi={S\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{29d7343a304033e2ea92d6325ed120d3}
+      \strng{fullhash}{29d7343a304033e2ea92d6325ed120d3}
+      \strng{bibnamehash}{29d7343a304033e2ea92d6325ed120d3}
+      \strng{authorbibnamehash}{29d7343a304033e2ea92d6325ed120d3}
+      \strng{authornamehash}{29d7343a304033e2ea92d6325ed120d3}
+      \strng{authorfullhash}{29d7343a304033e2ea92d6325ed120d3}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{07400020}
+      \field{journaltitle}{Food Microbiology}
+      \field{number}{6}
+      \field{title}{{Estimating the maximum growth rate from microbial growth curves: Definition is everything}}
+      \field{volume}{22}
+      \field{year}{2005}
+      \field{pages}{491\bibrangedash 495}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.fm.2004.11.014
+      \endverb
+      \keyw{Growth model,Microbial growth curve,Predictive microbiology}
+    \endentry
+    \entry{Pla2015ComparisonMethods}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=22583590a3941d1264f001af74b44aeb}{%
+           family={Pla},
+           familyi={P\bibinitperiod},
+           given={María\bibnamedelima Leonor},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=439afc12ef6acdcca254389072014077}{%
+           family={Oltra},
+           familyi={O\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8a86dde18b8a9e86164c1e9cb730535}{%
+           family={Esteban},
+           familyi={E\bibinitperiod},
+           given={María\bibnamedelima Dolores},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=978ad43e1ab6e0da70fefc0ea33a5411}{%
+           family={Andreu},
+           familyi={A\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21bd328aab2c5dd666656ba54f615ea8}{%
+           family={Palop},
+           familyi={P\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi Publishing Corporation}%
+      }
+      \strng{namehash}{4430e3419e4dc121597843183ae642ff}
+      \strng{fullhash}{2dd1fef18b0b56e686ab46977e62ace3}
+      \strng{bibnamehash}{4430e3419e4dc121597843183ae642ff}
+      \strng{authorbibnamehash}{4430e3419e4dc121597843183ae642ff}
+      \strng{authornamehash}{4430e3419e4dc121597843183ae642ff}
+      \strng{authorfullhash}{2dd1fef18b0b56e686ab46977e62ace3}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{23146141}
+      \field{journaltitle}{BioMed Research International}
+      \field{title}{{Comparison of Primary Models to Predict Microbial Growth by the Plate Count and Absorbance Methods}}
+      \field{volume}{2015}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1155/2015/365025
+      \endverb
+    \endentry
+    \entry{Ratkowsky1982RelationshipCultures}{report}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1b5e7e4b63525119110d12ee01bd9080}{%
+           family={Ratkowsky},
+           familyi={R\bibinitperiod},
+           given={D\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d72eee6bf7ea4faca332bfbefe7e316}{%
+           family={Olley},
+           familyi={O\bibinitperiod},
+           given={June},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7552783ee9166836d35c06758e44447c}{%
+           family={Mcmeekin},
+           familyi={M\bibinitperiod},
+           given={T\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9540271b1161024821ffab69dfd81063}{%
+           family={Ball3},
+           familyi={B\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00c59cfb8304250311c4eacd6fe47138}
+      \strng{fullhash}{05cf1aeeee2b237bfa2ec59337a6121b}
+      \strng{bibnamehash}{00c59cfb8304250311c4eacd6fe47138}
+      \strng{authorbibnamehash}{00c59cfb8304250311c4eacd6fe47138}
+      \strng{authornamehash}{00c59cfb8304250311c4eacd6fe47138}
+      \strng{authorfullhash}{05cf1aeeee2b237bfa2ec59337a6121b}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{JOURNAL OF BACTERiOLOGY}
+      \field{number}{1}
+      \field{title}{{Relationship Between Temperature and Growth Rate of Bacterial Cultures}}
+      \field{type}{techreport}
+      \field{volume}{149}
+      \field{year}{1982}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://journals.asm.org/journal/jb
+      \endverb
+      \verb{url}
+      \verb https://journals.asm.org/journal/jb
+      \endverb
+    \endentry
+    \entry{Ross2003ModelingAssessments}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6ede003832a4e54f7b786a02470b755d}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=833e4f1d19d13465b68150f7b160f9c4}{%
+           family={Mcmeekin},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima Alexander},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9e2357bcedc2518882a64d5c7d0a1683}
+      \strng{fullhash}{9e2357bcedc2518882a64d5c7d0a1683}
+      \strng{bibnamehash}{9e2357bcedc2518882a64d5c7d0a1683}
+      \strng{authorbibnamehash}{9e2357bcedc2518882a64d5c7d0a1683}
+      \strng{authornamehash}{9e2357bcedc2518882a64d5c7d0a1683}
+      \strng{authorfullhash}{9e2357bcedc2518882a64d5c7d0a1683}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Risk Analysis}
+      \field{number}{1}
+      \field{title}{{Modeling Microbial Growth Within Food Safety Risk Assessments}}
+      \field{type}{techreport}
+      \field{volume}{23}
+      \field{year}{2003}
+      \keyw{Predictive microbiology,food safety,microbial growth modeling,risk assessment}
+    \endentry
+    \entry{Sarvaiya2015EffectMetabolites}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=407ac8a3a64333442de34be00b683e74}{%
+           family={Sarvaiya},
+           familyi={S\bibinitperiod},
+           given={Niral},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67c16ab4e836d1d00714a6fe53592569}{%
+           family={Kothari},
+           familyi={K\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Maik Nauka Publishing / Springer SBM}%
+      }
+      \strng{namehash}{0e8594dda6e901b4240cdb8dd5072ac7}
+      \strng{fullhash}{0e8594dda6e901b4240cdb8dd5072ac7}
+      \strng{bibnamehash}{0e8594dda6e901b4240cdb8dd5072ac7}
+      \strng{authorbibnamehash}{0e8594dda6e901b4240cdb8dd5072ac7}
+      \strng{authornamehash}{0e8594dda6e901b4240cdb8dd5072ac7}
+      \strng{authorfullhash}{0e8594dda6e901b4240cdb8dd5072ac7}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00262617}
+      \field{journaltitle}{Microbiology (Russian Federation)}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{{Effect of audible sound in form of music on microbial growth and production of certain important metabolites}}
+      \field{volume}{84}
+      \field{year}{2015}
+      \field{pages}{227\bibrangedash 235}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1134/S0026261715020125
+      \endverb
+      \keyw{antibiotic susceptibility,calcium,growth,membrane permeability,music,pottasium,sound}
+    \endentry
+    \entry{Westerhoff1983ThermodynamicWastage}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=854899bc09453e7624820bf0552069dd}{%
+           family={Westerhoff},
+           familyi={W\bibinitperiod},
+           given={Hans\bibnamedelima V},
+           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59cdfc314b49c929651acc6cce1dc3f6}{%
+           family={Hellingwerft},
+           familyi={H\bibinitperiod},
+           given={Klaas\bibnamedelima J},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=952f597619f28f9e3eefae511f77585c}{%
+           family={Dam},
+           familyi={D\bibinitperiod},
+           given={Karel\bibnamedelima Van},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7eaa427ea88c4ae0da1cb4c7c0853934}
+      \strng{fullhash}{7eaa427ea88c4ae0da1cb4c7c0853934}
+      \strng{bibnamehash}{7eaa427ea88c4ae0da1cb4c7c0853934}
+      \strng{authorbibnamehash}{7eaa427ea88c4ae0da1cb4c7c0853934}
+      \strng{authornamehash}{7eaa427ea88c4ae0da1cb4c7c0853934}
+      \strng{authorfullhash}{7eaa427ea88c4ae0da1cb4c7c0853934}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. Natl Acad. Sci. USA}
+      \field{title}{{Thermodynamic efficiency of microbial growth is low but optimal for maximal growth rate (nonequilibrium thermodynamics/growth yield/r-and K-selection/uncoupling/energy wastage)}}
+      \field{type}{techreport}
+      \field{volume}{80}
+      \field{year}{1983}
+      \field{pages}{305\bibrangedash 309}
+      \range{pages}{5}
+    \endentry
+    \entry{XiongComparisonA}{report}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9085d2725fb846ab65e0580583f4e7e5}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11b8d52f1d6c2c3fcdf0ecc89c91583f}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9ce3694233171995f6f06db25e15880}{%
+           family={Edmondson},
+           familyi={E\bibinitperiod},
+           given={A\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38818f095d61c7e67628a33e5c5c3ecf}{%
+           family={Linton},
+           familyi={L\bibinitperiod},
+           given={R\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70c9d2d02e90d85c035e84529e3d969d}{%
+           family={Sheard},
+           familyi={S\bibinitperiod},
+           given={M\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fe4403cdfadef0e7d75ec5e83ea58650}
+      \strng{fullhash}{c57585546fb51b61a7f3f0cc8f767c05}
+      \strng{bibnamehash}{fe4403cdfadef0e7d75ec5e83ea58650}
+      \strng{authorbibnamehash}{fe4403cdfadef0e7d75ec5e83ea58650}
+      \strng{authornamehash}{fe4403cdfadef0e7d75ec5e83ea58650}
+      \strng{authorfullhash}{c57585546fb51b61a7f3f0cc8f767c05}
+      \field{sortinit}{X}
+      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Comparison of the Baranyi model with the modified Gompertz equation for modelling thermal inactivation of Listeria monocytogenes Scott A}}
+      \field{type}{techreport}
+      \verb{urlraw}
+      \verb http://www.idealibrary.com
+      \endverb
+      \verb{url}
+      \verb http://www.idealibrary.com
+      \endverb
+    \endentry
+    \entry{Yang2001EffectsAMB-1}{report}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=277907fed12b02bd0c40f62c1bdbf175}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chen-Dong},
+           giveni={C\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd2143db33b10eb6f0271386dbc8a81e}{%
+           family={Takeyama},
+           familyi={T\bibinitperiod},
+           given={Haruko},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=510c1d104554a0e76a9e90f6a5725604}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Tsuyoshi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d71d0ef71a95278eef3e7f2645b92a73}{%
+           family={Matsunaga},
+           familyi={M\bibinitperiod},
+           given={Tadashi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7be78e46f793c45acdc3328e24550053}
+      \strng{fullhash}{9bbf713f59e17179ac241f5f77be2669}
+      \strng{bibnamehash}{7be78e46f793c45acdc3328e24550053}
+      \strng{authorbibnamehash}{7be78e46f793c45acdc3328e24550053}
+      \strng{authornamehash}{7be78e46f793c45acdc3328e24550053}
+      \strng{authorfullhash}{9bbf713f59e17179ac241f5f77be2669}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Effects of growth medium composition, iron sources and atmospheric oxygen concentrations on production of luciferase-bacterial magnetic particle complex by a recombinant Magnetospirillum magneticum AMB-1}}
+      \field{type}{techreport}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb www.elsevier.com/locate/enzmictec
+      \endverb
+      \verb{url}
+      \verb www.elsevier.com/locate/enzmictec
+      \endverb
+      \keyw{BMP production,Cell growth,Fed-batch culture,Luciferase-bacterial magnetic particles,Magnetospirillum magneticum AMB-1}
+    \endentry
+  \enddatalist
+  \missing{MotulskyFittingGlance}
+\endrefsection
+\endinput
+
