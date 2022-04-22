@@ -18,16 +18,16 @@ R version 4.1.2 (2021-11-01)
 
 
 
-## Structure and Usage\
-Direcory is split into Code, Data and Results.
-Within Code is split into TNM_Code, Land_Generation and Data_Analysis.
-TNM_Code holds the TNM scripts and to run TNM locally and on HPC.
-Land_Generation holds scripts to generate landscape matracies.
-Data_Analysis holds all data analysis scripts.
-Necessary data to run code on is found in Data folder.
+## Structure and Usage
+Direcory is split into Code, Data and Results.\
+Within Code is split into TNM_Code, Land_Generation and Data_Analysis.\
+TNM_Code holds the TNM scripts and to run TNM locally and on HPC.\
+Land_Generation holds scripts to generate landscape matracies.\
+Data_Analysis holds all data analysis scripts.\
+Necessary data to run code on is found in Data folder.\
 Results folder should be populated with output from code
 
 
-## Author Contact\
+## Author Contact
 Francesca Covell\
 f.covell21@imperial.ac.uk
