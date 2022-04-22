@@ -12,6 +12,4 @@ R studio
 #### R:
 
 ## Structure and Usage
-working codes are found in the code folder
-
-#### code
+In this folder you will find all relavant code to be run on the HPC
