@@ -1,0 +1,358 @@
+##### 00 Header ####
+#pedigree simulation function definition
+#simulation at the POPULATION level
+
+#assume diploid, 2 sexes
+
+
+
+##### 01) Pedigree simulation based on random mating ####
+
+#1.1) define function and arguments
+RandPed <- function(nGens = NULL, 
+                   popSize = NULL, # n founders
+                   maleRatio = NULL, 
+                   #Chance of a male breeding
+                   breedMale = NULL,
+                   #Chance of female breeding
+                   breedFemale = NULL,
+                   #Chance of individuals dying each generation
+                   breedingAge = NULL,
+                   P.ages = NULL,
+                   P.death = NULL,
+                   P.babies = NULL,
+                   nBabies = NULL)
+{
+  
+# 1.2) Initialize temp and output variables for GENERATION 1
+  Id <- 1:popSize
+  
+  Sex <- vector(mode = "character", length = popSize)
+  
+  ifelse(popSize %% 2 == 0,
+    Sex <- c(rep("male", popSize*maleRatio), 
+                      rep("female", popSize*(1-maleRatio)) ),
+    Sex <- c(rep("male", trunc(popSize*maleRatio,0)), 
+                        rep("female", trunc(popSize*(1-maleRatio),0)),
+                        ifelse(runif(1,0,1) <= maleRatio, "male", "female")))
+  
+  Gen <- vector(mode = "integer", length = popSize)
+  Gen[1:popSize] <- rep(1, each = popSize)
+  
+  Age <- vector(mode="integer", length=popSize)
+  Age[1:popSize] <- rep(breedingAge, each = popSize)
+  
+  Sire <- vector(mode = "integer", length = popSize)
+  Sire[1:popSize] <- rep(NA, popSize)
+  
+  Dam <- vector(mode="integer", length=popSize)
+  Dam[1:popSize] <- rep(NA, popSize)
+  
+ # 1.3) decide who mates
+  #NB this is first gen, need to run loop from gen = 2
+   
+  i=1
+  #PICK POTENTIAL BREEDERS
+  tempM <- which(Gen==i & Sex=="male")
+  tempF <- which(Gen==i & Sex=="female")
+  
+  #PICK ACTUAL BREEDERS
+  breederM <- runif(length(tempM),0,1) < breedMale
+  breederF <- runif(length(tempF),0,1) < breedFemale
+  
+  #CREATE BREEDING PAIRS
+  pairsF <- tempF[breederF]
+  pairsM <- sample(x=tempM[breederM], size=length(pairsF), replace=T )
+  
+  #make babies
+  ##need to make a offspring number vector and a
+  # vector of probabilities for repro success
+  
+  
+  
+ babiesF <- vector(length(pairsF), mode="numeric")
+  for(i in 1:length(pairsF)){
+    babiesF[i] <- sample(x=nBabies, size=1, prob=P.babies)
+  }
+  
+# 1.4) Out put as a dataframe  
+# need to apend vector infor for next generation
+# what generation is it?
+# sum(nbabies) is the size of next gen
+
+Gen <- append(x=Gen,values = rep((max(Gen)+1),sum(babiesF), after = popSize))
+Id <- append(x=Id, values = seq(popSize+1, (popSize+sum(babiesF))), after = popSize)
+
+Dam <-append(x=Dam, values = rep(pairsF, each = 2), after = popSize) 
+
+Sire <-append(x=Sire, values = rep(pairsM, each = 2), after = popSize)
+
+Age <- (Age + 1)
+Age <- append(x=Age, values = rep(+1 , sum(babiesF)), after =  popSize)
+
+popSize <-(max(Id))
+
+Sex <- append(x=Sex, values=ifelse(runif(sum(babiesF), 0,1) > maleRatio, 
+              "male", "female"), after = max(which(Gen < max(Gen))))
+
+Dead<- vector(length(popSize), mode="numeric")
+for(i in Id){
+  Dead[i] <- sample(x=P.ages, size=1, prob=P.death)
+}
+
+AgeAtDeath <- vector(mode="integer", length=popSize) ### ERROR
+AgeAtDeath[1:popSize] <- ifelse(Age == Dead,Age,"NA" )
+
+
+
+
+#1.5) Creating full population
+
+#1.5.1 Use a while loop While Gen < nGen loop, 3.3 to 4.3
+
+
+while(max(Gen)<nGens) 
+{                           
+
+  #PICK POTENTIAL BREEDERS
+  tempM <- which(Sex=="male" & AgeAtDeath == "NA" & Age >= breedingAge ) 
+  tempF <- which(Sex=="female" & AgeAtDeath == "NA"& Age >= breedingAge )
+  breederM <- runif(length(tempM),0,1) < breedMale
+  breederF <- runif(length(tempF),0,1) < breedFemale
+  
+  #CREATE BREEDING PAIRS
+  pairsF <- tempF[breederF]
+  pairsM <- sample(x=tempM[breederM], size=length(pairsF), replace=T )
+  
+  #make babies
+  ##need to make a offspring number vector and a
+  # vector of probabilities for repro success
+  
+  
+  
+  babiesF <- vector(length(pairsF), mode="numeric")
+  for(i in 1:length(pairsF)){
+    babiesF[i] <- sample(x=nBabies, size=1, prob=P.babies)
+  }
+  
+  
+  Gen <- append(x=Gen,values = rep((max(Gen)+1),sum(babiesF), after = popSize))
+  
+  Id <- append(x=Id, values = seq(popSize+1, (popSize+sum(babiesF))), after = popSize)
+  
+  Dam <-append(x=Dam, values = rep(pairsF, each = 2), after = popSize) 
+  
+  Sire <-append(x=Sire, values = rep(pairsM, each = 2), after = popSize)
+  
+  Age <- (Age + 1)
+  Age <- append(x=Age, values = rep(+1 , sum(babiesF)), after =  popSize)
+  
+ 
+  popSize <-(max(Id))
+  
+  Sex <- append(x=Sex, values=ifelse(runif(sum(babiesF), 0,1) > maleRatio, 
+                                     "male", "female"), after = max(which(Gen < max(Gen))))
+  
+
+  Dead<- vector(length(popSize), mode="numeric")
+  for(i in Id){
+    Dead[i] <- sample(x=P.ages, size=1, prob=P.death)
+  }
+  
+  AgeAtDeath <- append(x=AgeAtDeath, value = rep( "NA", sum(babiesF)), after = max(which(Gen < max(Gen))))
+  
+  newDead<- which(Age==Dead & AgeAtDeath == "NA") 
+  maxAge<- which(Age == max(P.ages)& AgeAtDeath == "NA")
+  
+  
+  AgeAtDeath[newDead]<-Age[newDead]
+  AgeAtDeath[maxAge]<-max(P.ages)
+  
+ myPed<- data.frame(Id, Sire, Dam, Sex, Gen, Age, AgeAtDeath)
+  
+ 
+if (max(Gen) == (nGens +1) ){
+  print(myPed)
+ 
+ }
+ 
+}
+ return((myPed)) 
+}
+
+
+
+
+  
+
+##### 02) Pedigree simulation based on optoimall kinship mating ####
+#2.1) define function and arguments
+OptPed <- function(nGens = NULL, 
+                   popSize = NULL, # n founders
+                   maleRatio = NULL, 
+                   #Chance of a male breeding
+                   breedMale = NULL,
+                   #Chance of female breeding
+                   breedFemale = NULL,
+                   #Chance of individuals dying each generation
+                   breedingAge = NULL,
+                   P.ages = NULL,
+                   P.death = NULL,
+                   P.babies = NULL,
+                   nBabies = NULL)
+{
+  library(kinship2)
+  # 2.2) Initialize temp and output variables for GENERATION 1
+  Id <- 1:popSize
+  
+  Sex <- vector(mode = "character", length = popSize)
+  
+  ifelse(popSize %% 2 == 0,
+         Sex <- c(rep("male", popSize*maleRatio), 
+                  rep("female", popSize*(1-maleRatio)) ),
+         Sex <- c(rep("male", trunc(popSize*maleRatio,0)), 
+                  rep("female", trunc(popSize*(1-maleRatio),0)),
+                  ifelse(runif(1,0,1) <= maleRatio, "male", "female")))
+  
+  Gen <- vector(mode = "integer", length = popSize)
+  Gen[1:popSize] <- rep(1, each = popSize)
+  
+  Age <- vector(mode="integer", length=popSize)
+  Age[1:popSize] <- rep(breedingAge, each = popSize)
+  
+  Sire <- vector(mode = "integer", length = popSize)
+  Sire[1:popSize] <- rep(NA, popSize)
+  
+  Dam <- vector(mode="integer", length=popSize)
+  Dam[1:popSize] <- rep(NA, popSize)
+  
+  
+  
+  # 2.3) decide who mates
+  #NB this is first gen, need to run loop from gen = 2
+  
+  myPed<- data.frame(Id, Sire, Dam, Sex, Gen, Age)
+
+  myKin <-kinship(id= myPed$Id, dadid= myPed$Sire, momid= myPed$Dam, sex= myPed$Sex)
+  listKin<-as.list(myKin)
+  
+  tempM <- which(Sex=="male" &  Age >= 3 ) 
+  tempF <- which(Sex=="female" & Age >= 3 )
+  
+  #PICK ACTUAL BREEDERS
+  breederM <- runif(length(tempM),0,1) < breedMale
+  breederF <- runif(length(tempF),0,1) < breedFemale
+  #CREATE BREEDING PAIRS
+  pairsF <- tempF[breederF]  
+  pairsM <- sample(x= which(listKin[tempM[breederM]] == min(myKin[pairsF,])),
+                   size=length(pairsF), replace=T )
+  
+  
+  babiesF <- vector(length(pairsF), mode="numeric")
+  for(i in 1:length(pairsF)){
+    babiesF[i] <- sample(x=nBabies, size=1, prob=P.babies)
+  }
+  
+  
+  # 2.4) Out put as a dataframe  
+  # need to apend vector infor for next generation
+  # what generation is it?
+  # sum(nbabies) is the size of next gen
+  
+  Gen <- append(x=Gen,values = rep((max(Gen)+1),sum(babiesF), after = popSize))
+  Id <- append(x=Id, values = seq(popSize+1, (popSize+sum(babiesF))), after = popSize)
+  
+  Dam <-append(x=Dam, values = rep(pairsF, each = 2), after = popSize) 
+  
+  Sire <-append(x=Sire, values = rep(pairsM, each = 2), after = popSize)
+  
+  Age <- (Age + 1)
+  Age <- append(x=Age, values = rep(+1 , sum(babiesF)), after =  popSize)
+  
+  popSize <-(max(Id))
+  
+  Sex <- append(x=Sex, values=ifelse(runif(sum(babiesF), 0,1) > maleRatio, 
+                                     "male", "female"), after = max(which(Gen < max(Gen))))
+  
+  Dead<- vector(length(popSize), mode="numeric")
+  for(i in Id){
+    Dead[i] <- sample(x=P.ages, size=1, prob=P.death)
+  }
+  AgeAtDeath <- vector(mode="integer", length=popSize) 
+  
+  AgeAtDeath[1:popSize] <- ifelse(Age == Dead,Age,"NA" )
+  
+  #2.5) Creating full population
+  
+  #2.5.1 Use a whileloop While Gen < nGen loop, 3.3 to 4.3
+  
+  
+  while(max(Gen)<nGens) 
+  {                           
+    
+    myPed<- data.frame(Id, Sire, Dam, Sex, Gen, Age, AgeAtDeath)
+   
+    myKin <-kinship(id= myPed$Id, dadid= myPed$Sire, momid= myPed$Dam, sex= myPed$Sex)
+    listKin<-as.list(myKin)
+    
+    tempM <- which(Sex=="male" & AgeAtDeath == "NA" & Age >= 3 ) 
+    tempF <- which(Sex=="female" & AgeAtDeath == "NA"& Age >= 3 )
+    breederM <- runif(length(tempM),0,1) < breedMale
+    breederF <- runif(length(tempF),0,1) < breedFemale
+    
+    #CREATE BREEDING PAIRS
+    pairsF <- tempF[breederF]  
+    pairsM <- sample(x= which(listKin[tempM[breederM]] == min(myKin[pairsF,])),
+                     size=length(pairsF), replace=T )
+    
+  
+    babiesF <- vector(length(pairsF), mode="numeric")
+    for(i in 1:length(pairsF)){
+      babiesF[i] <- sample(x=nBabies, size=1, prob=P.babies)
+    }
+   
+    
+    Gen <- append(x=Gen,values = rep((max(Gen)+1),sum(babiesF), after = popSize))
+    
+    Id <- append(x=Id, values = seq(popSize+1, (popSize+sum(babiesF))), after = popSize)
+    
+    Dam <-append(x=Dam, values = rep(pairsF, each = 2), after = popSize) 
+    
+    Sire <-append(x=Sire, values = rep(pairsM, each = 2), after = popSize)
+    
+    Age <- (Age + 1)
+    Age <- append(x=Age, values = rep(+1 , sum(babiesF)), after =  popSize)
+    
+    
+    popSize <-(max(Id))
+    
+    Sex <- append(x=Sex, values=ifelse(runif(sum(babiesF), 0,1) > maleRatio, 
+                                       "male", "female"), after = max(which(Gen < max(Gen))))
+    
+    
+    Dead<- vector(length(popSize), mode="numeric")
+    for(i in Id){
+      Dead[i] <- sample(x=P.ages, size=1, prob=P.death)
+    }
+    
+    AgeAtDeath <- append(x=AgeAtDeath, value = rep( "NA", sum(babiesF)), after = max(which(Gen < max(Gen))))
+    
+    newDead<- which(Age==Dead & AgeAtDeath == "NA") 
+    maxAge<- which(Age == max(P.ages)& AgeAtDeath == "NA")
+    
+    
+    AgeAtDeath[newDead]<-Age[newDead]
+    AgeAtDeath[maxAge]<-max(P.ages)
+   
+    myPed<- data.frame(Id, Sire, Dam, Sex, Gen, Age, AgeAtDeath)
+    
+    
+    if (max(Gen) == (nGens +1) ){
+      print(myPed)
+      
+    }
+    
+  }
+  return((myPed)) 
+}
+
