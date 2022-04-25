@@ -5,7 +5,7 @@ Code for running Tangled Nature Model on Local and HPC
 
 ## Languages
 unix Ubuntu version 20.04.3 LTS\
-C++ 
+C++ version 9.4.0
 R version 4.1.2 (2021-11-01)
  
 ## Dependencies
