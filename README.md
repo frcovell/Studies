@@ -1,7 +1,7 @@
 # Undergraduate 
 Wildlife Biology \
 Manchest Metropolitan University\
-2015-2019 \
+2015-2019 
 
 ## Description 
 Dissertation Project code: \
