@@ -9,14 +9,12 @@ C++ version 9.4.0
 R version 4.1.2 (2021-11-01)
  
 ## Dependencies
-#### Linux:
-
-
-#### C++:
-
 #### R:
-
-
+- raster\
+- rgdal\
+- tidyverse\
+- gtools\
+- parallel
 
 ## Structure and Usage
 Direcory is split into Code, Data and Results.\
