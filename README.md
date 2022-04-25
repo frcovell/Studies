@@ -1,7 +1,7 @@
 # Postgraduate
 Computational Methods in Ecology and Evolution
 Imperial College London\
-2021-2022 \
+2021-2022 
 
 ## Description 
 MRes Course work and Dissertation code
@@ -13,7 +13,7 @@ Python 3.8.10\
 C++
 
 ## Structure and Usage
-Corsework hold all CMEE course work from the first term.\
+CorseWork hold all CMEE course work from the first term.\
 Project holds code for Dissertation work.
 
 
