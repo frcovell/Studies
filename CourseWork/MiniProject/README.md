@@ -4,28 +4,28 @@
 scripts to data wrangle, run model, output results and create latex document 
 
 ## Languages
-unix Ubuntu version 20.04.3 LTS
-Python 3
-R studio
+unix Ubuntu version 20.04.3 LTS\
+Python 3.8.10\
+R version 4.1.2 (2021-11-01)\
  
 ## Dependencies
-### python
-import pandas as pd
-import scipy as sc
-import matplotlib.pylab as pl
-import seaborn as sns 
-import sys
+### Python:
+import pandas as pd\
+import scipy as sc\
+import matplotlib.pylab as pl\
+import seaborn as sns \
+import sys\
 import numpy as np
-### R
-require(minpack.lm)
-require(MuMIn)
-require(tictoc)
-require(viridis)
-require(dplyr)
-require(ggplot2)
+
+### R:
+require(minpack.lm)\
+require(MuMIn)\
+require(tictoc)\
+require(viridis)\
+require(dplyr)\
+require(ggplot2)\
 
 ## Structure and Usage
-
 working codes are found in the code folder.\
 necessary data to run code on is found in data folder.\
 results folder should be populated with output from code
