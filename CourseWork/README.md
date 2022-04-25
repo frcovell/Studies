@@ -43,6 +43,13 @@ Direcory is spliting into week, within each week working codes are found in the 
 necessary data to run code on is found in data folder
 results folder should be populated with output from code
 
+#### MiniProject
+PopGrowthData.py\
+PopGrowthModel.R\
+PopGrowthResult.R\
+report.tex\
+CodeRun.sh
+
 #### Week1
 boilerplate.sh (Prints "this is a shell script)\
 variable.sh (shows the use of variables and how to read multivariables)\
