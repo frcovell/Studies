@@ -10,6 +10,7 @@ R studio
 
 ## Dependencies
 #### R:
+- ggplot2
 
 ## Structure and Usage
 In this folder you will find all relavant code to be run on the HPC
