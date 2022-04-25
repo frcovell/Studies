@@ -5,7 +5,7 @@ Code to run on HPC
 
 
 ## Languages
-unix Ubuntu version 20.04.3 LTS
+unix Ubuntu version 20.04.3 LTS\
 R studio
 
 ## Dependencies
