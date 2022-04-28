@@ -2,7 +2,7 @@
 
 ## Description
 
-Reporsitory for work done during undergrduate and Postgraduate study\
+Reporsitory for work done during undergrduate and Postgraduate study
 
 ## Structure and Usage
 Postgraduate Branch: Hold Course work and Project code from\
