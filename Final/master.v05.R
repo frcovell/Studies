@@ -2,10 +2,8 @@
 #
 
 #Ed work PC
-#setwd("E:/Dropbox/WORK/courses/course__PROJECTS/__BSc/2017.18/Francesca Covell bongo pedigree/2019.02.20 latest code")
-#setwd("H:/Documents/yr 4/project/Code")
-#setwd("D:/Fran/university/Final year/Project/_New hope/Finished code")
-setwd("/media/frcovell/K BETA/Fran/R project 1")
+#setwd("")
+
 #libraries
 install.packages("kinship2")
 install.packages("pedigree")
